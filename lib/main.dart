@@ -28,6 +28,12 @@ Widget getListView() {
         subtitle: Text("Sony Sub TV"),
         trailing: Icon(Icons.bubble_chart),
       ),
+      ListTile(
+        leading: Icon(Icons.bubble_chart), 
+        title: Text("Breaking Bad"),            
+        subtitle: Text("AMC"),         
+        trailing: Icon(Icons.bubble_chart),
+       ),     
     ],
   );
   return listview;
